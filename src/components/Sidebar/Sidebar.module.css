@@ -1,0 +1,31 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+
+  height: 100dvh;
+  position: sticky;
+  top: 0;
+
+  border: 1px solid #000;
+
+  width: 28rem;
+  max-width: 28rem;
+
+  padding: 3rem 1.6rem;
+
+  font-size: 1.6rem;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar li {
+    cursor: pointer;
+    color: blue;
+    margin-bottom: 8px;
+  }
+  .sidebar li:hover {
+    text-decoration: underline;
+  }
+  

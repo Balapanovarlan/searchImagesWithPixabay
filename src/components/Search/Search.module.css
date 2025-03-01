@@ -1,0 +1,10 @@
+.wrapper{
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.7rem 1rem;
+    border: 1px solid grey;
+    border-radius: 1.5rem;
+}
+

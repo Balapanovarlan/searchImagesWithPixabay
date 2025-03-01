@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    /* width: 30rem; */
+    padding: 2rem 1rem;
+    background-color: ghostwhite;
+    border-radius: 1rem;
+}
+
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.card img{
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.card img:active{
+    transform: scale(1.25);
+    transition: all .3s ease-in-out;
+}
